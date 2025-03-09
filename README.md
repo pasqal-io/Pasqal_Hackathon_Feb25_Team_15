@@ -76,15 +76,19 @@ The repository includes a complete Minimal Working Example (MWE) demonstrating:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/quantum-coral-bleaching.git
-cd quantum-coral-bleaching
+git clone https://github.com/pasqal-io/Pasqal_Hackathon_Feb25_Team_15.git
+cd Pasqal_Hackathon_Feb25_Team_15
 
 # Create and activate a virtual environment
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install notebook
+
+# Run the notebook containing the MVE 
+cd test
+jupyter notebook Hybrid_Coral_Reef_Bleaching.ipynb
 ```
 
 ## 📊 Data Sources
