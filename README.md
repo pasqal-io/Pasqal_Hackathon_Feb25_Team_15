@@ -23,23 +23,6 @@ The project leverages several libraries:
 
 > **Note:** The `quantum-evolution-kernel` package requires Python 3.10 or later.
 
-## Environment Setup
-
-A Conda environment YAML file is provided to simplify the setup. Follow these steps to create your environment:
-
-1. **Ensure Conda is installed:**  
-   You can install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/).
-
-2. **Create the environment:**  
-   Save the provided `environment.yml` file in your project root and run:
-   ```bash
-   conda env create -f environment.yml
-
-
-
-
-
-
 
 # Quantum-Enhanced Coral Bleaching Prediction System
 
@@ -71,6 +54,19 @@ The repository includes a complete Minimal Working Example (MWE) demonstrating:
 2. Implementation of quantum feature mapping using Pulser
 3. Quantum kernel computation and integration with classical SVM
 4. Evaluation and comparison with classical ML approaches
+
+## Environment Setup
+
+A Conda environment YAML file is provided to simplify the setup. Follow these steps to create your environment:
+
+1. **Ensure Conda is installed:**  
+   You can install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/).
+
+2. **Create the environment:**  
+   Save the provided `environment.yml` file in your project root and run:
+   ```bash
+   conda env create -f environment.yml
+
 
 ## 🛠️ Installation
 
